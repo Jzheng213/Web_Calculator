@@ -27,6 +27,20 @@
 .calculator .row button{
 	color: white;
 	background-color: grey;
-	width: 30px;
-	height: 40px;
+	width: 40px;
+	height: 30px;
+  margin: 2px;
+
+  border-top-left-radius: 80% 9px;
+  border-top-right-radius: 80% 9px;
+  border-bottom-left-radius: 80% 9px;
+  border-bottom-right-radius: 80% 9px;
+}
+
+.calculator .row .ctrl{
+  background-color: red;
+  }
+
+.calculator .row .tall{
+  height: 80px;
 }
