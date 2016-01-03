@@ -1,3 +1,9 @@
+
+body, html {
+  width: 100%;
+  background-color: white;
+}
+
 .calculator {
   width: 250px;
   height: 335px;
@@ -13,7 +19,9 @@
   				0 0 1px 2px #635e61, 0 10px 20px 0 #494547;
   text-align: center;
 }
-
+.calculator .row{
+  display: block;
+}
 .calculator #title{
 	padding-top: 10px;
 	font-size: 20px;
@@ -29,12 +37,12 @@
 	background-color: grey;
 	width: 40px;
 	height: 30px;
-  margin: 2px;
-
+  margin: 5px 2px 8px 2px;
+  border-radius: 20%;
   border-top-left-radius: 80% 9px;
   border-top-right-radius: 80% 9px;
-  border-bottom-left-radius: 80% 9px;
-  border-bottom-right-radius: 80% 9px;
+  border-bottom-left-radius: 100% 9px;
+  border-bottom-right-radius: 100% 9px;
 }
 
 .calculator .row .ctrl{
@@ -42,5 +50,12 @@
   }
 
 .calculator .row .tall{
-  height: 80px;
+  height: 65px;
+  float: right;
+  margin-right: 48px;
+  margin-left: -40px;
+}
+
+.calculator #lastRow{
+  margin-top: -37px;
 }
