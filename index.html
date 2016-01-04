@@ -19,41 +19,40 @@
   <p id="tagline">electronic calculator</p>
   <input type="text" disabled="disabled" id="answer"/>
   <div class="row">
-    <button class="ctrl">AC</button>
-    <button class="ctrl">CE</button>
+    <button class="ctrl" id="AC">AC</button>
+    <button class="ctrl" id="CE">CE</button>
     <button>%</button>
     <button>÷</button>
   </div>
   <div class="row">
-    <button>7</button>
-    <button>8</button>
-    <button>9</button>
-    <button>x</button>
+    <button id="7">7</button>
+    <button id="8">8</button>
+    <button id="9">9</button>
+    <button id="x">x</button>
   </div>
   <div class="row">
-    <button>4</button>
-    <button>5</button>
-    <button>6</button>
-    <button>-</button>
+    <button id="4">4</button>
+    <button id="5">5</button>
+    <button id="6">6</button>
+    <button id="-">-</button>
   </div>
   <div class="row">
-    <button>1</button>
-    <button>2</button>
-    <button>3</button>
-    <button class="tall">+</button>
+    <button id="1">1</button>
+    <button id="2">2</button>
+    <button id="3">3</button>
+    <button class="tall" id="plus">+</button>
   </div>
   <div class="row" id="lastRow">
-    <button>0</button>
-    <button>.</button>
-    <button>=</button>
+    <button id="0">0</button>
+    <button id=".">.</button>
+    <button id="equal">=</button>
   </div>
 </div>
 
-
 </body>
 
-<script src="JavaScript/Web_Calculator.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="JavaScript/Web_Calculator.js"></script>
 
 
 </html>
